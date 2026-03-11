@@ -1,0 +1,7 @@
+try:  # just a hack to make running these in development easier
+    import empyricalRMT
+except ModuleNotFoundError:
+    import sys
+    from pathlib import Path
+
+    sys.path.append(str(Path(__file__).resolve().parent.parent))
