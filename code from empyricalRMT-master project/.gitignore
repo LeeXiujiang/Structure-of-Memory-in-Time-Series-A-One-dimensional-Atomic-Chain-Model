@@ -1,0 +1,34 @@
+# Data Files
+
+## Plotting
+**/*.png
+!readme/*.png
+empyricalRMT/plots
+
+## Testing Remnants
+tests/data
+empyricalRMT/tests/*.csv
+empyricalRMT/tests/data
+test_eigs.npy
+test_current.py
+**/trim_report.csv
+
+## fMRI-related
+*.nii.gz
+
+# Development
+.vscode
+
+# OS-Related
+**/*.~lock*
+
+## Python
+build
+dist
+env
+venv
+main.py
+.mypy_cache
+*.egg-info
+**/__pycache__
+
